@@ -67,5 +67,5 @@ response = client.chat.completions.create(
 result = json.loads(response.choices[0].message.content)
 logprobs_data = response.choices[0].logprobs
 
-print(result)
-print(parse_using_schema_and_logprobs(schema_dict, logprobs_data))
+print("Result (without classification probabilities):", result)
+print("Result (with classification probabilities):", parse_using_schema_and_logprobs(schema_dict, logprobs_data))
