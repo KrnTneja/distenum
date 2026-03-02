@@ -6,7 +6,7 @@ Thanks for your interest in contributing. This document explains how to get set 
 
 1. **Clone the repository** and go to the project root:
    ```bash
-   git clone https://github.com/ktaneja6/distenum.git
+   git clone https://github.com/KrnTneja/distenum.git
    cd distenum
    ```
 

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "distenum"
-version = "0.1.0"
+version = "0.1.1"
 description = "Parse JSON outputs with logprobs from the OpenAI API to convert enum fields into probability distributions."
 readme = "README.md"
 license = "MIT"
@@ -29,7 +29,7 @@ openai = ["openai>=1.0"]
 dev = ["pytest", "ruff"]
 
 [project.urls]
-Repository = "https://github.com/ktaneja6/distenum"
+Repository = "https://github.com/KrnTneja/distenum"
 
 [tool.setuptools.packages.find]
 where = ["."]
